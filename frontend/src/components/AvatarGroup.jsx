@@ -1,5 +1,5 @@
 import React from "react";
-import DEFAULT_PROFILE_PICTURE from "../assets/images/default_user.webp"
+// import DEFAULT_PROFILE_PICTURE from "../assets/images/default_user.webp"
 
 const AvatarGroup = ({ avatars, maxVisible = 3 }) => {
   return (
@@ -7,7 +7,7 @@ const AvatarGroup = ({ avatars, maxVisible = 3 }) => {
       {avatars.slice(0, maxVisible).map((avatar, index) => (
         <img
           key={index}
-          src={avatar || DEFAULT_PROFILE_PICTURE}
+          src={avatar || "https://placehold.co/100x100?text=User"}
           alt={`Avatar ${index}`}
           className="w-9 h-9 rounded-full border-2 border-white -ml-3 first:ml-0"
         />
