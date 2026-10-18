@@ -4,7 +4,6 @@ import { API_PATHS } from "../../utils/apiPaths";
 import { LuUsers } from "react-icons/lu";
 import Model from "../Model";
 import AvatarGroup from "../AvatarGroup";
-import DEFAULT_PROFILE_PICTURE from "../../assets/images/default_user.webp";
 
 const SelectUsers = ({ selectedUsers, setSelectedUsers }) => {
   const [allUsers, setAllUsers] = useState([]);
@@ -26,7 +25,7 @@ const SelectUsers = ({ selectedUsers, setSelectedUsers }) => {
     setTempSelectedUsers((prev) =>
       prev.includes(userId)
         ? prev.filter((id) => id !== userId)
-        : [...prev, userId]
+        : [...prev, userId],
     );
   };
 
@@ -77,7 +76,10 @@ const SelectUsers = ({ selectedUsers, setSelectedUsers }) => {
               className="flex items-center gap-4 p-3 border-b border-gray-200"
             >
               <img
-                src={user.profileImageUrl || DEFAULT_PROFILE_PICTURE}
+                src={
+                  user.profileImageUrl ||
+                  "https://placehold.co/100x100?text=User"
+                }
                 alt={user.name}
                 className="w-10 h-10 rounded-full"
               />
