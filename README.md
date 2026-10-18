@@ -1,16 +1,3 @@
-# 🧠 Task Manager — MERN Stack Project
-
-<img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/66169120-03c1-4127-a3fd-1bbe8f7a8829" />
-
-_A powerful task management web app built with the MERN stack featuring authentication, dashboards, task analytics, and admin-user collaboration._
-
----
-
-> ⚠️ **Note:**
->
-> - Render’s free tier **automatically shuts down the app** if it hasn't been used for a while.  
->   To load the app, you may need to **refresh the page** after opening the live demo.
-> - Uploaded **images/files may be removed** due to free-tier storage limitations.
 
 <!--
 
@@ -26,37 +13,9 @@ You can use these credentials to log in and test the app:
 
 ---
 
-## 📸 **Screenshots**
 
-### 🔐 Authentication (Login / Register)
 
-|                                                             Login Page                                                              |
-| :---------------------------------------------------------------------------------------------------------------------------------: |
-| <img width="1600" height="763" alt="image" src="https://github.com/user-attachments/assets/d555e06e-871e-4b2c-97b2-91bd24532e82" /> |
-|                                                          **Register Page**                                                          |
-| <img width="1600" height="763" alt="image" src="https://github.com/user-attachments/assets/ea5049f1-5785-4fb7-bbf2-583c78f5d579" /> |
 
-### 🧑‍💼 Admin Dashboard
-
-<img width="1500" height="1000" alt="admin_dashboard" src="https://github.com/user-attachments/assets/1727c1f5-517d-4dad-9556-5b4847dd9484" />
-
-### 👤 User Dashboard
-
-<img width="1500" height="1000" alt="user_dashboard" src="https://github.com/user-attachments/assets/bc499c4d-ff56-44d4-b840-94665e520ae4" />
-
-### 📋 Task Creation (Admin)
-
-<img width="1500" height="852" alt="Screenshot 2025-10-09 024115" src="https://github.com/user-attachments/assets/6a0cb1fd-c69a-48b7-ab7b-380c16c62fa0" />
-
-### 📊 Reports & Analytics
-
-|                                                            User Details                                                             |
-| :---------------------------------------------------------------------------------------------------------------------------------: |
-| <img width="1500" height="852" alt="image" src="https://github.com/user-attachments/assets/312310ec-3360-4211-9c92-3681c0ca83c0" /> |
-|                                                          **Task Details**                                                           |
-| <img width="1500" height="852" alt="image" src="https://github.com/user-attachments/assets/d73c154f-f0dd-45c5-8415-918147c402f3" /> |
-
----
 
 ## 🚀 **Features**
 
