@@ -1,5 +1,5 @@
 import React from "react";
-import DEFAULT_PROFILE_PICTURE from "../../assets/images/default_user.webp"
+// import DEFAULT_PROFILE_PICTURE from "../../assets/images/default_user.webp"
 
 const UserCard = ({ userInfo }) => {
   return (
@@ -7,7 +7,7 @@ const UserCard = ({ userInfo }) => {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
-            src={userInfo?.profileImageUrl || DEFAULT_PROFILE_PICTURE}
+            src={user.profileImage || "https://placehold.co/100x100?text=User"}
             alt={`Avatar`}
             className="w-12 h-12 rounded-full border-2 border-white"
           />
